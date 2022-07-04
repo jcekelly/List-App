@@ -5,17 +5,13 @@ import { faChevronRight, faChevronLeft, faCircle, faCheckCircle, faPlus, faUndo,
 
 const App = () => {
 	// HINT: each "item" in our list names a name, a boolean to tell if its been completed, and a quantity
-	const [items, setItems] = useState([
-		// { itemName: 'item 1', quantity: 1, isSelected: false },
-		// { itemName: 'item 2', quantity: 3, isSelected: true },
-		// { itemName: 'item 3', quantity: 2, isSelected: false },
-	]);
+	const [items, setItems] = useState([]);
 
 	const [inputValue, setInputValue] = useState('');
 
 	
 	const [totalItemCount, setTotalItemCount] = useState(6)
-	
+
 
 	const handleAddButtonClick = () => {
 		const newItem = {
