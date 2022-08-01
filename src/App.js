@@ -36,8 +36,7 @@ const App = () => {
 
 	
 		setItems(removeItem);
-		// calculateTotal();
-		// console.log(removeItem)
+		
 	};
 
 	const toggleComplete = (index) => {
